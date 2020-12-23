@@ -199,14 +199,6 @@
     {
       "service": "github",
       "url": "https://github.com/barancezayirli"
-    },
-    {
-      "service": "facebook",
-      "url": "https://www.facebook.com/barancezayirli"
-    },
-    {
-      "service": "instagram",
-      "url": "https://www.instagram.com/barancezayirli"
     }
   ],
   "role": "FrontEnd Developer",
