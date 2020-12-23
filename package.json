@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-resume-tailwind",
+  "name": "resume",
   "private": true,
-  "description": "Gatsby starter for resume",
+  "description": "Pritish Vaidya's Resume",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -14,6 +14,8 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "fontsource-montserrat": "^3.1.5",
+    "fontsource-roboto": "^3.1.5",
     "gatsby": "^2.18.12",
     "gatsby-plugin-manifest": "^2.2.34",
     "gatsby-plugin-netlify-cms": "^4.1.33",
@@ -36,9 +38,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/pritishvaidya/resume"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/pritishvaidya/resume/issues"
   }
 }
