@@ -1134,6 +1134,16 @@
     ts-node "^9"
     tslib "^2"
 
+"@fontsource/montserrat@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@fontsource/montserrat/-/montserrat-4.0.1.tgz#f959665dc3666705f29ca8b7206e019ae153e2a1"
+  integrity sha512-mnW+K5vAWjZ8ARi9lZXf6jmTfqBRSiWYHwbWMVib0erDwrFI26VritMQ8qZ9auJe8nUPXvxS+fvhk8kX2COJSQ==
+
+"@fontsource/open-sans@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@fontsource/open-sans/-/open-sans-4.0.1.tgz#5d12357dbaf5ffa7722090b96386c84f99843732"
+  integrity sha512-Fd7oHcrRgDM0TnW3goSTtSTaDK76Wc6wsiAXSvsMOrq7SaawO+QLlTf6DIk6+tjTLZEVsPcuFtvtkm6/y7UFdg==
+
 "@fullhuman/postcss-purgecss@^2.1.2":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@fullhuman/postcss-purgecss/-/postcss-purgecss-2.3.0.tgz#50a954757ec78696615d3e118e3fee2d9291882e"
@@ -5631,16 +5641,6 @@ follow-redirects@^1.0.0, follow-redirects@^1.10.0:
   version "1.13.1"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.1.tgz#5f69b813376cee4fd0474a3aba835df04ab763b7"
   integrity sha512-SSG5xmZh1mkPGyKzjZP8zLjltIfpW32Y5QpdNJyjcfGxK3qo3NDDkZOZSFiGn1A6SclQxY9GzEwAHQ3dmYRWpg==
-
-fontsource-montserrat@^3.1.5:
-  version "3.1.5"
-  resolved "https://registry.yarnpkg.com/fontsource-montserrat/-/fontsource-montserrat-3.1.5.tgz#766d71f9255a4abe9abb628e47e95a8912b45897"
-  integrity sha512-wLmozvb4j/yDbPEBrzHmkAM2PDHp+GV7l6T/GzrmiM8rHeLDIQuUfWJ3b05pAu7q5xRhuG2cDqr+bCagaKws0w==
-
-fontsource-roboto@^3.1.5:
-  version "3.1.5"
-  resolved "https://registry.yarnpkg.com/fontsource-roboto/-/fontsource-roboto-3.1.5.tgz#d5da8bac968db7911e20fd2fb6c227d405f86cba"
-  integrity sha512-DXSE7/F/6AsKcRJX4VSi3bGrEx0xiaqieeV2W7UH9JFk6tt1U86NoWwy2iNPoUzGtEyQsasilwhTrMJm7wM+Ew==
 
 for-each@^0.3.3:
   version "0.3.3"

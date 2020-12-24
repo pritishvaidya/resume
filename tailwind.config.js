@@ -1,4 +1,4 @@
-const { colors } = require('tailwindcss/defaultTheme');
+const { colors, fontFamily } = require('tailwindcss/defaultTheme');
 
 module.exports = {
   theme: {
@@ -8,7 +8,12 @@ module.exports = {
       neutral: colors.gray,
       white: '#FFF',
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': ['Open Sans', ...fontFamily.sans],
+        'mono': ['Montserrat', ...fontFamily.mono]
+      }
+    },
   },
   variants: {},
   plugins: [],

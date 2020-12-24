@@ -13,6 +13,9 @@ import {
 import resume from '../../data/profile';
 import '../main.css';
 
+import "@fontsource/montserrat"
+import "@fontsource/open-sans"
+
 const Home = () => (
   <main className="antialiased text-neutral-900 bg-neutral-100 min-h-screen sm:p-5">
     <SEO title="Resume" />
