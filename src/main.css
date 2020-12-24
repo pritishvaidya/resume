@@ -1,3 +1,23 @@
+:root {
+    @apply .light;
+}
+
+.dark {
+    --color-bg-primary: #2d3748;
+    --color-bg-secondary: #283141;
+    --color-text-primary: #f7fafc;
+    --color-text-secondary: #e2e8f0;
+    --color-text-accent: #81e6d9;
+}
+
+.light {
+    --color-bg-primary: #ffffff;
+    --color-bg-secondary: #edf2f7;
+    --color-text-primary: #2d3748;
+    --color-text-secondary: #4a5568;
+    --color-text-accent: #2b6cb0;
+}
+
 @tailwind base;
 @tailwind components;
 
@@ -6,14 +26,14 @@
 }
 
 .btn-secondary {
-    @apply bg-secondary-500 text-white;
+    @apply bg-secondary text-white;
 }
 .btn-secondary:hover {
-    @apply bg-secondary-700
+    @apply bg-secondary
 }
 
 .contact-icon {
-    @apply fill-current w-4 h-4 mr-4 text-secondary-500;
+    @apply fill-current w-4 h-4 mr-4 text-secondary;
 }
 
 .contact-link {
@@ -21,11 +41,11 @@
 }
 
 .contact-link:hover {
-    @apply text-secondary-500;
+    @apply text-secondary;
 }
 
 .section-header {
-    @apply text-primary-500 text-xl border-l-4 border-primary-500 pl-3 font-bold;
+    @apply text-primary text-xl border-l-4 border-primary pl-3 font-bold;
 }
 
 .item-header {
@@ -37,15 +57,15 @@
 }
 
 .tag {
-    @apply px-2 py-1 mr-2 mb-2 bg-primary-500 text-sm text-white inline-block capitalize font-light rounded;
+    @apply px-2 py-1 mr-2 mb-2 bg-primary text-sm text-white inline-block capitalize font-light rounded;
 }
 
 .footer-social-link {
-    @apply text-primary-900 mr-4;
+    @apply text-primary mr-4;
 }
 
 .footer-social-link:hover {
-    @apply text-primary-500;
+    @apply text-primary;
 }
 
 .footer-social-icon {
