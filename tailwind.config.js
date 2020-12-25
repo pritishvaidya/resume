@@ -3,7 +3,7 @@ const { colors, fontFamily } = require('tailwindcss/defaultTheme');
 module.exports = {
   theme: {
     colors: {
-      primary: colors.teal,
+      primary: colors.gray,
       secondary: colors.orange,
       neutral: colors.gray,
       white: '#FFF',
