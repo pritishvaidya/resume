@@ -11,6 +11,9 @@ import {
   SEO
 } from '../components';
 import resume from '../../data/profile';
+import Contacts from "../components/contacts";
+import Profile from "../components/profile";
+
 import '../main.css';
 
 import "@fontsource/montserrat"
@@ -21,14 +24,22 @@ const Home = () => (
     <SEO title="Resume" />
     <div className="container mx-auto shadow bg-white py-5 px-10">
       <Header
-        contacts={resume.contact}
         name={resume.fullname}
         role={resume.role}
       />
-      <Summary data={resume.summary} />
+      <div className="flex">
+        <div className="flex-0.3 border-r-2 border-neutral-300 pr-10">
+          <Contacts contacts={resume.contact}/>
+          <Skills data={resume.skills} />
+        </div>
+        <div className="flex-auto pl-10">
+          <Profile summary={resume.summary} qualifications={resume.otherQualifications}/>
+          <Experience data={resume.experience}/>
+        </div>
+      </div>
+      {/*<Summary data={resume.summary} />
       <div className="border-b border-neutral-300 pb-2 my-5 lg:flex">
         <div className="lg:w-2/3 lg:pr-8">
-          {resume.experience && <Experience data={resume.experience} />}
           {resume.projects && <Projects data={resume.projects} />}
         </div>
         <div className="lg:w-1/3 lg:pl-8 lg:border-l lg:border-neutral-300 ">
@@ -39,7 +50,7 @@ const Home = () => (
               <List key={`${item.title}-side`} data={item} />
             ))}
         </div>
-      </div>
+      </div>*/}
       <Footer social={resume.social} />
     </div>
   </main>
