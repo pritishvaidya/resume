@@ -114,6 +114,7 @@
     }
   ],
   "summary": "With 4+ years of experience in various industries, I help build scalable FrontEnd for different companies.",
+  "otherQualifications": ["Web App Development", "Mobile App Development", "Website Design and Development", "Testing", "Automate Workflows"],
   "education": [
     {
       "institution": "National Institute of Technology, Hamirpur",
@@ -127,29 +128,29 @@
       "role": "FrontEnd Developer",
       "company": "Language In Motion LLC",
       "description": "Developing FrontEnd in React Native Web for the application.",
-      "start": "05/2019",
+      "start": "June 2019",
       "end": ""
     },
     {
       "role": "Full Stack Developer",
       "company": "RentZend LLC",
       "description": "Worked on implementing new features to the mobile app in React Native and Backend in NodeJS.",
-      "start": "05/2018",
-      "end": "03/2019"
+      "start": "May 2018",
+      "end": "March 2019"
     },
     {
       "role": "FullStack Developer",
       "company": "Mokko Labs LLC",
       "description": "Worked on Building FrontEnd in Angular and Backend in NodeJS for various Projects",
-      "start": "03/2017",
-      "end": "04/2018"
+      "start": "March 2017",
+      "end": "April 2018"
     },
     {
       "role": "Software Design Engineer",
       "company": "Newgen Softwares Inc",
       "description": "Designed and developed IBPS model in HTML and CSS.",
-      "start": "05/2016",
-      "end": "02/2017"
+      "start": "May 2016",
+      "end": "February 2017"
     }
   ],
   "social": [

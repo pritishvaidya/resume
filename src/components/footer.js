@@ -3,7 +3,7 @@ import HeartIcon from '../assets/heart.svg';
 import SocialIcon from './social_icon';
 
 const Footer = ({ social }) => (
-  <footer className="py-6 mx-auto items-center justify-between md:flex">
+  <footer className="border-t-2 border-neutral-300 py-12 mx-auto items-center justify-between md:flex">
     <div className="items-center flex tracking-wide mb-5 md:mb-0 justify-center text-sm ml-2">
       <span className="inline-block mr-1">
         © {new Date().getFullYear()} |

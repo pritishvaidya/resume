@@ -1,11 +1,11 @@
 import React from 'react';
 
 const Experience = ({ data }) => (
-  <section>
-    <h1 className="section-header">Experience</h1>
+  <section className="border-b-2 border-neutral-300">
+    <h1 className="section-header mb-10 ">Experience</h1>
     {data &&
       data.map((item, i) => (
-        <article className="my-5" key={`${item.company}-${i}`}>
+        <article className="my-8" key={`${item.company}-${i}`}>
           <h2 className="item-header">{item.role}</h2>
           <h3 className="item-sub">
             {item.company} | {item.start} - {item.end || 'PRESENT'}
