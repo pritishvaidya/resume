@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Education = ({ data }) => (
-  <section className="mb-5">
+  <section className="my-10">
     <h1 className="section-header mb-5">Education</h1>
     {data &&
       data.map(item => (
