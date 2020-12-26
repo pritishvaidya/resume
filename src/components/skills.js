@@ -6,8 +6,8 @@ const Skills = ({ data }) => (
   <section>
     <h1 className="section-header">Skills</h1>
     {data.map(skill => (
-      <div key={skill.title} className="my-8">
-        <h1 className="item-header font-semibold text-lg mb-2">
+      <div key={skill.title} className="my-4 md:my-8">
+        <h1 className="item-header font-semibold text-base mb-2 md:text-lg">
           {skill.title}
         </h1>
         {skill.subskills.map(subskill => (
