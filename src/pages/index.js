@@ -25,12 +25,12 @@ const Home = () => (
         name={resume.fullname}
         role={resume.role}
       />
-      <div className="flex">
-        <div className="flex-0.3 border-r-2 border-neutral-300 pr-10">
+      <div className="md:flex">
+        <div className="pr-10 border-b-2 border-neutral-300 md:flex-0.3 md:border-r-2 md:border-b-0">
           <Contacts contacts={resume.contact}/>
           <Skills data={resume.skills} />
         </div>
-        <div className="flex-auto pl-10">
+        <div className="flex-auto md:pl-10">
           <Profile summary={resume.summary} qualifications={resume.otherQualifications}/>
           <Experience data={resume.experience}/>
           <Education data={resume.education} />

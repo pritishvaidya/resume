@@ -2,7 +2,7 @@ import React from 'react';
 
 const Experience = ({ data }) => (
   <section className="border-b-2 border-neutral-300">
-    <h1 className="section-header mb-10 ">Experience</h1>
+    <h1 className="section-header mb-4 md:mb-10 ">Experience</h1>
     {data &&
       data.map((item, i) => (
         <article className="my-8" key={`${item.company}-${i}`}>
@@ -10,7 +10,7 @@ const Experience = ({ data }) => (
           <h3 className="item-sub">
             {item.company} | {item.start} - {item.end || 'PRESENT'}
           </h3>
-          <p className="py-6">{item.description}</p>
+          <p className="py-4 md:py-6">{item.description}</p>
         </article>
       ))}
   </section>

@@ -5,7 +5,7 @@ import GlobeIcon from '../assets/globe.svg';
 import LocationIcon from '../assets/location.svg';
 
 const Contact = ({ field, value }) => (
-  <div className="mb-10">
+  <div className="mb-6 md:mb-10">
     <h1 className="item-header md-5">{field}</h1>
     <span className="flex my-2 text-primary-900 tracking-widest items-center">
     {field === 'email' && (
@@ -41,7 +41,7 @@ const Contact = ({ field, value }) => (
       {field === 'location' && (
         <>
           <LocationIcon className="contact-icon" />
-          <a className="contact-link" target="_blank" href={`http://www.google.com/maps/place/32.000240,76.307690`}>{value}</a>
+          <a className="contact-link" target="_blank" rel="noreferrer" href={`http://www.google.com/maps/place/32.000240,76.307690`}>{value}</a>
         </>
       )}
   </span>
