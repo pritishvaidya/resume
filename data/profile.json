@@ -155,6 +155,14 @@
   ],
   "social": [
     {
+      "service": "github",
+      "url": "https://pritishvaidya.xyz/github"
+    },
+    {
+      "service": "stackoverflow",
+      "url": "https://pritishvaidya.xyz/stackoverflow"
+    },
+    {
       "service": "youtube",
       "url": "https://pritishvaidya.xyz/youtube"
     },
@@ -169,10 +177,6 @@
     {
       "service": "angellist",
       "url": "https://pritishvaidya.xyz/angellist"
-    },
-    {
-      "service": "github",
-      "url": "https://pritishvaidya.xyz/github"
     }
   ],
   "role": "FrontEnd Developer",
