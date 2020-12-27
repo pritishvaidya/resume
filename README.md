@@ -1,1 +1,1 @@
-# Resume
+# [Resume](https://resume.pritishvaidya.dev)
