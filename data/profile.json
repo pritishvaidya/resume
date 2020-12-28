@@ -1,9 +1,9 @@
 {
   "contact": {
-    "phone": "+91 9882224516",
-    "email": "contact@pritishvaidya.dev",
     "website": "https://pritishvaidya.dev",
-    "location": "Himachal Pradesh, India"
+    "stackoverflow": "https://pritishvaidya.xyz/stackoverflow",
+    "blog": "https://pritishvaidya.xyz/blog",
+    "email": "contact@pritishvaidya.dev"
   },
   "skills": [
     {
@@ -129,28 +129,40 @@
       "company": "Language In Motion LLC",
       "description": "Developing FrontEnd in React Native Web for the application.",
       "start": "June 2019",
-      "end": ""
+      "end": "",
+      "details": ["Built the new Portal in React Native Web for Write once, render anywhere", "Integrated many features including Payments, Referral links etc", "Improved Performance of reducing the bundle size, optimizing webpack and its features"]
     },
     {
       "role": "Full Stack Developer",
       "company": "RentZend LLC",
       "description": "Worked on implementing new features to the mobile app in React Native and Backend in NodeJS.",
       "start": "May 2018",
-      "end": "March 2019"
+      "end": "March 2019",
+      "details": [
+        "Add features for property view, buy and rent in the mobile app.", "Added Integration of Apollo GraphQL to the already existing app.", "Improved the performance by upgrading to newer versions and better navigation and coding practices", "Integrated api's to the Backend in GraphQL server and Koa"
+      ]
     },
     {
       "role": "FullStack Developer",
       "company": "Mokko Labs LLC",
       "description": "Worked on Building FrontEnd in Angular and Backend in NodeJS for various Projects",
       "start": "March 2017",
-      "end": "April 2018"
+      "end": "April 2018",
+      "details": [
+        "SafeStart - Designed and developed the admin portal for the automated medical webapp by adding various features, webhooks and useful integrations such as email, generate report etc.",
+        "MedSpotting - Worked in constructing some of the basic api's in NodeJS and Express",
+        "MedMatch - Converted the Hospital management webapp features to mobile app in React Native. Added various features like live tracking, mails etc.",
+        "Tiffinity and Tiffinity Consumer - Built the React Native apps for the home made food transport app. Added various features like payments, tracking, mails etc."
+      ]
     },
     {
       "role": "Software Design Engineer",
       "company": "Newgen Softwares Inc",
       "description": "Designed and developed IBPS model in HTML and CSS.",
       "start": "May 2016",
-      "end": "February 2017"
+      "end": "February 2017",
+      "details": [
+        "Revamping the UI for the IBPS model"]
     }
   ],
   "social": [

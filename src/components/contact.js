@@ -3,6 +3,8 @@ import MailIcon from '../assets/mail.svg';
 import MobileIcon from '../assets/mobile.svg';
 import GlobeIcon from '../assets/globe.svg';
 import LocationIcon from '../assets/location.svg';
+import StackoverflowIcon from '../assets/stackoverflow.svg'
+import BlogIcon from '../assets/blog.svg'
 
 const Contact = ({ field, value }) => (
   <div className="mb-6 md:mb-10">
@@ -21,6 +23,34 @@ const Contact = ({ field, value }) => (
           <MobileIcon className="contact-icon" />
           <a className="contact-link" href={`tel:${value}`} title="phone">
             {value}
+          </a>
+        </>
+      )}
+      {field === 'stackoverflow' && (
+        <>
+          <StackoverflowIcon className="contact-icon" />
+          <a
+            className="contact-link"
+            target="_blank"
+            href={value}
+            rel="noopener noreferrer"
+            title="stackoverflow"
+          >
+            Stackoverflow
+          </a>
+        </>
+      )}
+      {field === 'blog' && (
+        <>
+          <BlogIcon className="contact-icon" />
+          <a
+            className="contact-link"
+            target="_blank"
+            href={value}
+            rel="noopener noreferrer"
+            title="blog"
+          >
+            Blog
           </a>
         </>
       )}
