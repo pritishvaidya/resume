@@ -10,7 +10,12 @@ const Experience = ({ data }) => (
           <h3 className="item-sub">
             {item.company} | {item.start} - {item.end || 'PRESENT'}
           </h3>
-          <p className="py-4 md:py-6">{item.description}</p>
+          <p className="py-4">{item.description}</p>
+          <ul className='list-disc pl-8 md:pl-10'>
+            {item.details.map(qualification => (
+              <li className="py-2 leading-relaxed tracking-wide textt-sm md:text-base">{qualification}</li>
+            ))}
+          </ul>
         </article>
       ))}
   </section>
