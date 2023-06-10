@@ -11,20 +11,20 @@
       "type": "percent",
       "subskills": [
         {
-          "name": "Web App Development",
+          "name": "Hybrid App Development",
           "percent": 95
         },
         {
-          "name": "Hybrid App Development",
-          "percent": 85
+          "name": "Web App Development",
+          "percent": 90
         },
         {
           "name": "Backend",
-          "percent": 70
+          "percent": 40
         },
         {
           "name": "Design",
-          "percent": 40
+          "percent": 30
         }
       ]
     },
@@ -57,25 +57,13 @@
           "name": "React Native"
         },
         {
-          "name": "Electron"
-        },
-        {
-          "name": "Node"
-        },
-        {
-          "name": "Express"
-        },
-        {
-          "name": "Koa"
-        },
-        {
-          "name": "Gatsby"
-        },
-        {
           "name": "Apollo"
         },
         {
-          "name": "Next"
+          "name": "Jest"
+        },
+        {
+          "name": "Node"
         }
       ]
     },
@@ -90,7 +78,7 @@
           "name": "Jira"
         },
         {
-          "name": "Google Analytics"
+          "name": "Analytics"
         }
       ]
     },
@@ -113,11 +101,11 @@
       ]
     }
   ],
-  "summary": "With 4+ years of experience in various industries, I help build scalable FrontEnd for different companies.",
-  "otherQualifications": ["Web App Development", "Mobile App Development", "Website Design and Development", "Testing", "Automate Workflows"],
+  "summary": "With 6+ years of experience in various industries, I help build scalable FrontEnd for different companies.",
+  "otherQualifications": ["Mobile App Development","Web App Development", "Website Design and Development", "Testing", "Automation"],
   "education": [
     {
-      "institution": "National Institute of Technology, Hamirpur",
+      "institution": "National Institute of Technology",
       "degree": "Computer Science",
       "start": "2012",
       "end": "2016"
@@ -125,11 +113,19 @@
   ],
   "experience": [
     {
+      "role": "Lead FrontEnd Developer",
+      "company": "Razorpay",
+      "description": "Building scalable Mobile App in React Native for Neobanking Product",
+      "start": "February 2021",
+      "end": "",
+      "details": ["Managing the team to build scalable features", "Collaborating with the stakeholders and defining the roadmap and OKRs for the project", "Building scalable functionalities and handling the overall infrastructure of the mobile app", "Improving the overall performance of the app", "Defining cadence for alert monitoring for various errors and outages"]
+    },
+    {
       "role": "FrontEnd Developer",
       "company": "Language In Motion LLC",
       "description": "Developing FrontEnd in React Native Web for the application.",
       "start": "June 2019",
-      "end": "",
+      "end": "January 2021",
       "details": ["Built the new Portal in React Native Web for Write once, render anywhere", "Integrated many features including Payments, Referral links etc", "Improved Performance of reducing the bundle size, optimizing webpack and its features"]
     },
     {

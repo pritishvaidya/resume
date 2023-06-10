@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     title: `Pritish Vaidya | FrontEnd Developer`,
     author: `Pritish Vaidya`,
-    description: `With 4+ years of experience in various industries, I help build scalable FrontEnd for different companies.`,
+    description: `With 6+ years of experience in various industries, I help build scalable FrontEnd and Mobile Apps for different companies.`,
     siteUrl: `https://pritishvaidya.dev`,
     social: {
       twitter: `PritishVaidya`,
