@@ -12,6 +12,10 @@
     @apply bg-secondary-700
 }
 
+.download-icon {
+    @apply fill-current w-10 h-10 mr-2 text-secondary-500;
+}
+
 .contact-icon {
     @apply fill-current w-4 h-4 mr-2 text-secondary-500;
 }
