@@ -1,9 +1,8 @@
 {
   "contact": {
-    "website": "https://pritishvaidya.dev",
+    "email": "contact@pritishvaidya.dev",
     "stackoverflow": "https://pritishvaidya.xyz/stackoverflow",
-    "blog": "https://pritishvaidya.xyz/blog",
-    "email": "contact@pritishvaidya.dev"
+    "blog": "https://pritishvaidya.xyz/blog"
   },
   "skills": [
     {
@@ -11,16 +10,12 @@
       "type": "percent",
       "subskills": [
         {
-          "name": "Hybrid App Development",
-          "percent": 95
-        },
-        {
           "name": "Web App Development",
-          "percent": 90
+          "percent": 100
         },
         {
-          "name": "Backend",
-          "percent": 40
+          "name": "Hybrid App Development",
+          "percent": 100
         },
         {
           "name": "Design",
@@ -34,20 +29,24 @@
       "subskills": [
         {
           "name": "Javascript",
-          "percent": 95
+          "percent": 100
+        },
+        {
+          "name": "Typescript",
+          "percent": 90
         },
         {
           "name": "HTML",
-          "percent": 85
+          "percent": 90
         },
         {
           "name": "CSS",
-          "percent": 85
+          "percent": 80
         }
       ]
     },
     {
-      "title": "Frameworks",
+      "title": "Libraries & Frameworks",
       "type": "tag",
       "subskills": [
         {
@@ -57,13 +56,10 @@
           "name": "React Native"
         },
         {
-          "name": "Apollo"
+          "name": "Svelte"
         },
         {
-          "name": "Jest"
-        },
-        {
-          "name": "Node"
+          "name": "GraphQL"
         }
       ]
     },
@@ -72,13 +68,19 @@
       "type": "tag",
       "subskills": [
         {
+          "name": "Sentry"
+        },
+        {
+          "name": "Coralogix"
+        },
+        {
+          "name": "Apollo"
+        },
+        {
+          "name": "Figma"
+        },
+        {
           "name": "Docker"
-        },
-        {
-          "name": "Jira"
-        },
-        {
-          "name": "Analytics"
         }
       ]
     },
@@ -101,8 +103,25 @@
       ]
     }
   ],
-  "summary": "With 6+ years of experience in various industries, I help build scalable FrontEnd for different companies.",
-  "otherQualifications": ["Mobile App Development","Web App Development", "Website Design and Development", "Testing", "Automation"],
+  "summary": "With over 8 years of experience in various industries, I help manage teams and build scalable FrontEnd solutions for different companies, engaging in thorough discussions with stakeholders to align on project objectives and deliverables.",
+  "otherQualifications": [
+    {
+      "name": "Web App Development",
+      "description": "Proficient in building responsive and high-performance web applications using modern frameworks and technologies."
+    },
+    {
+      "name": "Error Monitoring and Alerting",
+      "description": "Expert in establishing effective error monitoring and alerting systems to enhance application reliability and performance."
+    },
+    {
+      "name": "CI / CD",
+      "description": "Experienced in implementing Continuous Integration and Continuous Deployment (CI/CD) pipelines to streamline development workflows and ensure rapid delivery."
+    },
+    {
+      "name": "Team Leadership",
+      "description": "Skilled in leading and mentoring teams, fostering collaboration, and driving project success through effective communication and strategic planning."
+    }
+  ],
   "education": [
     {
       "institution": "National Institute of Technology",
@@ -113,52 +132,285 @@
   ],
   "experience": [
     {
-      "role": "Lead FrontEnd Developer",
+      "id": "lrazorpay",
+      "role": "Lead FrontEnd Engineer",
       "company": "Razorpay",
-      "description": "Building scalable Mobile App in React Native for Neobanking Product",
-      "start": "February 2021",
-      "end": "",
-      "details": ["Managing the team to build scalable features", "Collaborating with the stakeholders and defining the roadmap and OKRs for the project", "Building scalable functionalities and handling the overall infrastructure of the mobile app", "Improving the overall performance of the app", "Defining cadence for alert monitoring for various errors and outages"]
-    },
-    {
-      "role": "FrontEnd Developer",
-      "company": "Language In Motion LLC",
-      "description": "Developing FrontEnd in React Native Web for the application.",
-      "start": "June 2019",
-      "end": "January 2021",
-      "details": ["Built the new Portal in React Native Web for Write once, render anywhere", "Integrated many features including Payments, Referral links etc", "Improved Performance of reducing the bundle size, optimizing webpack and its features"]
-    },
-    {
-      "role": "Full Stack Developer",
-      "company": "RentZend LLC",
-      "description": "Worked on implementing new features to the mobile app in React Native and Backend in NodeJS.",
-      "start": "May 2018",
-      "end": "March 2019",
+      "description": "In this role, I spearheaded the development of scalable features across Razorpay's core Payments and Loyalty product offerings. My responsibilities included managing a talented team of developers, ensuring we consistently met project deadlines while upholding high-quality code standards. I collaborated closely with stakeholders to define our project roadmaps and OKRs, ensuring alignment with overarching business objectives. My efforts led to significant enhancements in the performance of new feature development, along with the establishment of effective alert monitoring protocols to swiftly address errors and outages.",
+      "start": "Apr 2022",
+      "end": "Present",
       "details": [
-        "Add features for property view, buy and rent in the mobile app.", "Added Integration of Apollo GraphQL to the already existing app.", "Improved the performance by upgrading to newer versions and better navigation and coding practices", "Integrated api's to the Backend in GraphQL server and Koa"
+        "Developed Offers Categorization in Razorpay Checkout: Implemented a robust categorization system for offers within the Razorpay Checkout, which not only enhanced user experience but also simplified navigation, resulting in higher engagement rates.",
+        "Created Gift Cards Portal: Took full ownership of designing and building a dedicated portal for gift card issuance on the Razorpay Merchant Dashboard, effectively streamlining the process for merchants and improving operational efficiency.",
+        "Loyalty Product Development: Played a key role in the creation of a closed-loop wallet for Shopify, which significantly enhanced the Loyalty product’s functionality and its integration with e-commerce platforms, driving increased customer retention.",
+        "Performance Optimization: Led initiatives to improve overall app performance, achieving faster load times and a more responsive user interface, which contributed to a better user experience and reduced churn.",
+        "Alert Monitoring Framework: Defined and implemented a structured cadence for alert monitoring across various applications, establishing an operational excellence (OPEX) structure that proactively addressed errors and outages, enhancing system reliability.",
+        "AI Test Case Generator: Developed an innovative AI-driven test case generator that enabled automated testing across Razorpay Frontend applications, greatly improving testing efficiency and reducing time-to-market for new features."
       ]
     },
     {
-      "role": "FullStack Developer",
+      "id": "srazorpay",
+      "role": "Senior FrontEnd Engineer",
+      "company": "Razorpay",
+      "description": "In this role, I was instrumental in building a scalable Mobile App using React Native for Razorpay's Neobanking Product. I collaborated closely with cross-functional teams to deliver high-quality features that enhanced user engagement and satisfaction. My focus on performance optimization and user experience was key in driving the app's success in a competitive market.",
+      "start": "Feb 2021",
+      "end": "Apr 2022",
+      "details": [
+        "Spearheaded OKR planning by providing high-level estimations and T-shirt sizing for all projects, including leading the Apple Watch's first public release and implementing client performance improvements, resulting in enhanced app reliability and user experience.",
+        "Successfully resolved critical bugs, including Google Play violations, splash screen crashes on iOS, and navigation race conditions, ensuring compliance with platform policies and significantly improving app stability and user retention.",
+        "Enhanced developer productivity by restructuring CI release notes for Monorepo, implementing error masking in Sentry to reduce on-call workload, and aiding the team in accurate task estimation and spillover management, streamlining cross-team collaboration.",
+        "Established and optimized dashboards for performance monitoring and analytics event setups in collaboration with stakeholders, improving visibility into app performance and enabling data-driven decision-making for payouts and transactions.",
+        "Delivered engaging tech talks on the Light theme for the Razorpay X mobile app, fostering knowledge sharing and encouraging innovation within the team while highlighting the importance of consistent design across platforms."
+      ]
+    },
+    {
+      "role": "FrontEnd Engineer",
+      "company": "Language In Motion LLC",
+      "description": "In this role, I played a pivotal part in developing the frontend of our application using React Native Web, which allowed for a versatile user experience across different platforms. My focus on delivering high-quality code ensured a robust and maintainable product.",
+      "start": "June 2019",
+      "end": "January 2021",
+      "details": [
+        "Built a new portal that enabled a 'write once, render anywhere' capability, streamlining development and enhancing user experience.",
+        "Integrated key features such as payment processing and referral links, significantly boosting user engagement and satisfaction.",
+        "Optimized application performance by reducing bundle size and refining webpack configurations, resulting in faster load times and smoother navigation."
+      ]
+    },
+    {
+      "role": "FullStack Engineer",
+      "company": "RentZend LLC",
+      "description": "As a FullStack Engineer, I contributed to the development of new features for a mobile app using React Native, while also enhancing the NodeJS backend. My collaborative efforts with cross-functional teams ensured that we delivered high-quality, user-centered features.",
+      "start": "May 2018",
+      "end": "March 2019",
+      "details": [
+        "Implemented essential features for property viewing, buying, and renting, enhancing user interaction and satisfaction.",
+        "Successfully integrated Apollo GraphQL, streamlining data queries and improving the performance of the existing application.",
+        "Upgraded overall application performance through better coding practices and modern technologies, leading to a more efficient and maintainable codebase.",
+        "Connected various APIs to the GraphQL server and Koa backend, ensuring efficient data handling and communication between systems."
+      ]
+    },
+    {
+      "role": "FullStack Engineer",
       "company": "Mokko Labs LLC",
-      "description": "Worked on Building FrontEnd in Angular and Backend in NodeJS for various Projects",
+      "description": "In this role, I was responsible for developing both frontend and backend components for various projects, using Angular and NodeJS. My ability to manage multiple tasks and projects simultaneously ensured timely delivery and high-quality results.",
       "start": "March 2017",
       "end": "April 2018",
       "details": [
-        "SafeStart - Designed and developed the admin portal for the automated medical webapp by adding various features, webhooks and useful integrations such as email, generate report etc.",
-        "MedSpotting - Worked in constructing some of the basic api's in NodeJS and Express",
-        "MedMatch - Converted the Hospital management webapp features to mobile app in React Native. Added various features like live tracking, mails etc.",
-        "Tiffinity and Tiffinity Consumer - Built the React Native apps for the home made food transport app. Added various features like payments, tracking, mails etc."
+        "Designed and developed the admin portal for SafeStart, incorporating various features, webhooks, and integrations to enhance functionality.",
+        "Constructed foundational APIs for MedSpotting using NodeJS and Express, facilitating seamless communication between the frontend and backend.",
+        "Converted critical hospital management features to a mobile application in React Native for MedMatch, improving accessibility and user experience.",
+        "Developed React Native applications for Tiffinity, adding features such as payment processing and tracking to enhance user engagement."
       ]
     },
     {
       "role": "Software Design Engineer",
       "company": "Newgen Softwares Inc",
-      "description": "Designed and developed IBPS model in HTML and CSS.",
+      "description": "In my role as a Software Design Engineer, I focused on redesigning the user interface for the IBPS model using HTML and CSS. My work aimed to improve usability and enhance the overall user experience.",
       "start": "May 2016",
       "end": "February 2017",
       "details": [
-        "Revamping the UI for the IBPS model"]
+        "Revamped the user interface to create a more intuitive and user-friendly experience, ensuring accessibility for all users."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Razorpay Checkout Enhancements",
+      "description": "Developed a robust categorization system for offers within the Razorpay Checkout to enhance user experience and simplify navigation.",
+      "company": "Razorpay",
+      "start": "Apr 2022",
+      "end": "Present",
+      "details": [
+        "Conducted user research to identify pain points in the existing checkout process.",
+        "Designed and implemented the categorization system, resulting in higher engagement rates.",
+        "Collaborated with UI/UX designers to ensure the new features aligned with the overall product design.",
+        "Monitored performance metrics post-launch to evaluate the impact of the enhancements."
+      ],
+      "link": "https://razorpay.com/demopg3/",
+      "subskills":[
+        {
+          "name": "JavaScript"
+        },
+        {
+          "name": "Tailwind"
+        },
+        {
+          "name": "Svelte"
+        },
+        {
+          "name": "Figma"
+        },
+        {
+          "name": "Coralogix"
+        },
+        {
+          "name": "Sentry"
+        }
+      ]
+    },
+    {
+      "title": "XMobile App",
+      "description": "Led the development of a scalable mobile application using React Native, focusing on delivering high-quality user experiences and seamless integration with backend services.",
+      "company": "Razorpay",
+      "start": "Apr 2022",
+      "end": "Apr 2023",
+      "details": [
+        "Collaborated with cross-functional teams to define user requirements and translate them into technical specifications.",
+        "Implemented performance optimizations, achieving faster load times and a smoother user interface, significantly enhancing user engagement.",
+        "Integrated third-party APIs for payment processing, notifications, and analytics, ensuring a robust and feature-rich application.",
+        "Conducted thorough testing and debugging to identify and resolve issues, leading to a successful launch with minimal post-release bugs.",
+        "Maintained the application post-launch by implementing user feedback and adding new features, continuously improving user satisfaction."
+      ],
+      "link": "https://razorpay.com/x/mobile-app/",
+      "subskills":[
+        {
+          "name": "JavaScript"
+        },
+        {
+          "name": "React"
+        },
+        {
+          "name": "React Native"
+        },
+        {
+          "name": "GraphQL"
+        },
+        {
+          "name": "Figma"
+        },
+        {
+          "name": "Sentry"
+        }
+      ]
+    },
+    {
+      "title": "Apple Watch Integration for RazorpayX",
+      "description": "Developed an innovative Apple Watch app for RazorpayX to enable seamless payout approvals, enhancing convenience for business owners on-the-go.",
+      "details": [
+        "Conducted market research to understand user needs for financial task management via wearable technology.",
+        "Designed a user-friendly onboarding experience, including pairing the watch with the mobile app using OTP verification.",
+        "Implemented a streamlined login process leveraging mobile app sessions to ensure easy access without repetitive credentials.",
+        "Developed payout approval functionality, allowing users to approve pending payouts directly from their Apple Watch.",
+        "Collaborated with cross-functional teams to ensure robust integration with existing Razorpay services and compliance with security standards."
+      ],
+      "company": "Razorpay",
+      "start": "August 2021",
+      "end": "November 2021",
+      "subskills":[
+        {
+          "name": "Swift 5"
+        },
+        {
+          "name": "React Native"
+        },
+        {
+          "name": "Figma"
+        },
+        {
+          "name": "Sentry"
+        }
+      ]
+    },
+    {
+      "title": "Gift Card Management Portal",
+      "description": "Took end-to-end ownership of the project, from its early review cycle to its release, collaborating closely with the team to develop and execute the project plan.",
+      "company": "Razorpay",
+      "start": "Apr 2022",
+      "end": "Present",
+      "details": [
+        "Facilitated early design reviews with an external agency, effectively identifying feasibility and challenges of project features.",
+        "Onboarded new team members, fostering a smooth integration into the project workflow.",
+        "Collaborated with the External Dashboard team to ensure successful project release and actively unblocked team members to promote project progress.",
+        "Drove conversations with cross-team analytics folks and set up analytics events for all flows.",
+        "Scheduled and conducted demo calls with stakeholders, ensuring transparency and alignment throughout the project lifecycle."
+      ],
+      "link": "https://dashboard.razorpay.com",
+      "subskills":[
+        {
+          "name": "React"
+        },
+        {
+          "name": "React Native"
+        },
+        {
+          "name": "Svelte"
+        },
+        {
+          "name": "GraphQL"
+        },
+        {
+          "name": "Figma"
+        },
+        {
+          "name": "Coralogix"
+        },
+        {
+          "name": "Sentry"
+        }
+      ]
+    },
+    {
+      "title": "White Labeled Wallet Customer Portal",
+      "description": "Took end-to-end ownership of the project, overseeing its development from the early review cycle to its successful release, focusing solely on the frontend aspect.",
+      "company": "Razorpay",
+      "start": "Apr 2022",
+      "end": "Present",
+      "details": [
+        "Collaborated closely with Product Managers to ensure alignment with project objectives and gathered feedback through scheduled demo calls.",
+        "Worked with DevOps to set up Continuous Integration/Continuous Deployment (CI/CD) on AWS infrastructure, ensuring smooth deployment processes.",
+        "Successfully delivered changes without any bugs highlighted in User Acceptance Testing (UAT), showcasing attention to detail and quality assurance."
+      ],
+      "link": "https://axiseasypay.razorpay.com/wallets",
+      "subskills":[
+        {
+          "name": "JavaScript"
+        },
+        {
+          "name": "React"
+        },
+        {
+          "name": "React Native"
+        },
+        {
+          "name": "Tailwind"
+        },
+        {
+          "name": "Figma"
+        },
+        {
+          "name": "Coralogix"
+        },
+        {
+          "name": "Sentry"
+        }
+      ]
+    },
+    {
+      "title": "Shopify App",
+      "description": "Owned the project from its early review stages to its release, effectively managing all aspects of development.",
+      "company": "Razorpay",
+      "start": "Apr 2022",
+      "end": "Present",
+      "details": [
+        "Collaborated with Backend Engineers to implement a new proxy authentication flow using SHA-based authentication, enhancing security.",
+        "Developed the application using Shopify’s Liquid Templating Engine, showcasing adaptability to new technology stacks.",
+        "Successfully delivered changes without any bugs identified during User Acceptance Testing (UAT), reflecting thorough testing and attention to detail."
+      ],
+      "subskills":[
+        {
+          "name": "JavaScript"
+        },
+        {
+          "name": "Shopify Liquid"
+        },
+        {
+          "name": "Figma"
+        },
+        {
+          "name": "Coralogix"
+        },
+        {
+          "name": "Sentry"
+        }
+      ]
     }
   ],
   "social": [

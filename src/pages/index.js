@@ -7,6 +7,7 @@ import {
   Header,
   Experience,
   Skills,
+  Projects,
   Education,
   Footer,
   SEO
@@ -31,13 +32,14 @@ const Home = () => (
           <Skills data={resume.skills} />
         </div>
         <div className="flex-auto md:pl-10">
-          <Profile summary={resume.summary} qualifications={resume.otherQualifications}/>
-          <Experience data={resume.experience}/>
+          <Profile summary={resume.summary} qualifications={resume.otherQualifications} />
+          <Experience data={resume.experience} />
+          <Projects data={resume.projects} />
           <Education data={resume.education} />
         </div>
       </div>
-      <Footer social={resume.social} />
-    </div>
+        <Footer social={resume.social} />
+      </div>
   </main>
 );
 

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Experience = ({ data }) => (
-  <section className="border-b-2 border-neutral-300">
+  <section className="border-b-2 border-neutral-300 font-mono" >
     <h1 className="section-header mb-4 md:mb-10 ">Experience</h1>
     {data &&
       data.map((item, i) => (
