@@ -1,4 +1,5 @@
 import React from 'react';
+import DownloadButton from '../pdf/download';
 
 const Header = ({ name, role }) => {
   const nameString = name.split(' ')
@@ -12,6 +13,9 @@ const Header = ({ name, role }) => {
         <h2 className="font-light text-lg md:text-2xl text-primary-600 leading-relaxed tracking-widest">
           {role}
         </h2>
+      </div>
+      <div>
+        <DownloadButton />
       </div>
     </header>
   );
