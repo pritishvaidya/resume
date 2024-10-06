@@ -14,16 +14,19 @@ const DownloadButton = () => {
 
   return (
     <button
+      className="py-4"
       onClick={downloadPDF}
       style={{
         background: 'none',
         border: 'none',
         cursor: 'pointer',
         display: 'flex',
-        alignItems: 'center'
+        alignItems: 'center',
+        justifyContent: 'center',
       }}
     >
       <FileSaveIcon className="download-icon" />
+      <a className={'contact-link'}>Download</a>
     </button>
   );
 };
