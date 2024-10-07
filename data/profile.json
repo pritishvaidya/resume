@@ -46,7 +46,7 @@
       ]
     },
     {
-      "title": "Libraries & Frameworks",
+      "title": "View",
       "type": "tag",
       "subskills": [
         {
@@ -57,9 +57,102 @@
         },
         {
           "name": "Svelte"
+        }
+      ]
+    },
+    {
+      "title": "Rendering Frameworks",
+      "type": "tag",
+      "subskills": [
+        {
+          "name": "Next.js"
         },
         {
+          "name": "Gatsby"
+        },
+        {
+          "name": "SvelteKit"
+        }
+      ]
+    },
+    {
+      "title": "State Management",
+      "type": "tag",
+      "subskills": [
+        {
+          "name": "Redux"
+        },
+        {
+          "name": "Zustand"
+        }
+      ]
+    },
+    {
+      "title": "CSS",
+      "type": "tag",
+      "subskills": [
+        {
+          "name": "CSS Modules"
+        },
+        {
+          "name": "Styled Compoents"
+        },
+        {
+          "name": "Tailwind"
+        }
+      ]
+    },
+    {
+      "title": "Unit Testing",
+      "type": "tag",
+      "subskills": [
+        {
+          "name": "Jest"
+        },
+        {
+          "name": "Vitest"
+        },
+        {
+          "name": "Storybook"
+        }
+      ]
+    },
+    {
+      "title": "Data Fetching",
+      "type": "tag",
+      "subskills": [
+        {
           "name": "GraphQL"
+        },
+        {
+          "name": "Tanstack Query"
+        }
+      ]
+    },
+    {
+      "title": "Integration Testing",
+      "type": "tag",
+      "subskills": [
+        {
+          "name": "Playwright"
+        },
+        {
+          "name": "Selenium"
+        }
+      ]
+    },
+    {
+      "title": "Language Tooling",
+      "type": "tag",
+      "subskills": [
+        {
+          "name": "Babel"
+        },
+        {
+          "name": "TypeScript"
+        },
+        {
+          "name": "ESLint"
         }
       ]
     },
