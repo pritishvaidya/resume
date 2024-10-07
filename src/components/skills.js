@@ -7,9 +7,9 @@ const Skills = ({ data }) => (
     <h1 className="section-header">Skills</h1>
     {data.map(skill => (
       <div key={skill.title} className="my-4 md:my-8">
-        <h1 className="item-header font-semibold text-base mb-2 md:text-lg">
+        <h2 className={`item-header font-semibold text-base mb-2 ${skill.type === 'percent' ? 'md:text-lg': 'md:text-base'}`}>
           {skill.title}
-        </h1>
+        </h2>
         {skill.subskills.map(subskill => (
           <span key={subskill.name}>
             {skill.type === 'percent' && (
