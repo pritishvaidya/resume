@@ -229,7 +229,7 @@
       "id": "lrazorpay",
       "role": "Lead FrontEnd Engineer",
       "company": "Razorpay",
-      "description": "In this role, I spearheaded the development of scalable features across Razorpay's core Payments and Loyalty product offerings. My responsibilities included managing a talented team of developers, ensuring we consistently met project deadlines while upholding high-quality code standards. I collaborated closely with stakeholders to define our project roadmaps and OKRs, ensuring alignment with overarching business objectives.\n\nOne of my key achievements was developing the Offers Categorization feature in Razorpay Checkout. This robust categorization system significantly enhanced user experience and simplified navigation, leading to higher engagement rates. Additionally, I took full ownership of creating a dedicated Gift Cards Portal on the Razorpay Merchant Dashboard, effectively streamlining the issuance process for merchants and improving operational efficiency.\n\nI also played a pivotal role in the development of a closed-loop wallet for Shopify, which enhanced our Loyalty product’s functionality and integration with e-commerce platforms, ultimately driving increased customer retention. My efforts in performance optimization led to faster load times and a more responsive user interface, contributing to a better user experience and reduced churn.\n\nFurthermore, I defined and implemented a structured cadence for alert monitoring across various applications, establishing an operational excellence (OPEX) framework that proactively addressed errors and outages. Finally, I developed an innovative AI-driven test case generator, which enabled automated testing across Razorpay Frontend applications, greatly improving testing efficiency and reducing time-to-market for new features.",
+      "description": "Led the development of scalable features for Payments and Loyalty products, managing a team and ensuring high-quality code. Key achievements include developing the Offers Categorization feature in Razorpay Checkout, building a Gift Cards Portal, and enhancing Shopify wallet integration. Improved app performance, introduced proactive monitoring with an OPEX framework, and developed an AI-driven test case generator, reducing errors and time-to-market.",
       "start": "Apr 2022",
       "end": "Nov 2024"
     },
@@ -237,35 +237,35 @@
       "id": "srazorpay",
       "role": "Senior FrontEnd Engineer",
       "company": "Razorpay",
-      "description": "In this role, I was instrumental in building a scalable Mobile App using React Native for Razorpay's Neobanking Product. Collaborating closely with cross-functional teams, I focused on delivering high-quality features that enhanced user engagement and satisfaction. My efforts in performance optimization and user experience were key to the app's success in a competitive market.\n\nI spearheaded OKR planning by providing high-level estimations and T-shirt sizing for all projects, including leading the first public release of the Apple Watch integration. This initiative, along with implementing client performance improvements, resulted in enhanced app reliability and user experience. I also successfully resolved critical bugs, including Google Play violations and navigation race conditions, ensuring compliance with platform policies and significantly improving app stability and user retention.\n\nTo enhance developer productivity, I restructured CI release notes for Monorepo and implemented error masking in Sentry, which reduced on-call workload and aided the team in accurate task estimation and spillover management. I established and optimized dashboards for performance monitoring and analytics event setups in collaboration with stakeholders, improving visibility into app performance and enabling data-driven decision-making.\n\nAdditionally, I delivered engaging tech talks on the Light theme for the Razorpay X mobile app, fostering knowledge sharing within the team and emphasizing the importance of consistent design across platforms.",
+      "description": "Built a scalable React Native app for Razorpay's Neobanking product, optimizing performance and user experience. Delivered Apple Watch integration, resolved critical bugs, and restructured CI workflows. Created dashboards for performance monitoring, improved error tracking, and delivered tech talks to promote team knowledge sharing.",
       "start": "Feb 2021",
       "end": "Apr 2022"
     },
     {
       "role": "Senior FrontEnd Engineer",
       "company": "Language In Motion LLC",
-      "description": "In this role, I played a pivotal part in developing the frontend of our application using React Native Web, which allowed for a versatile user experience across different platforms. My focus on delivering high-quality code ensured a robust and maintainable product.\n\nI built a new portal that enabled a 'write once, render anywhere' capability, significantly streamlining development processes and enhancing user experience. This approach not only simplified the development workflow but also allowed us to maintain consistency across various platforms.\n\nAdditionally, I integrated key features such as payment processing and referral links, which greatly boosted user engagement and satisfaction. I also optimized application performance by reducing bundle size and refining webpack configurations, resulting in faster load times and smoother navigation for users.",
+      "description": "Developed a versatile React Native Web application with 'write once, render anywhere' capability. Built a new portal, integrated payment and referral features, and optimized performance with webpack refinements, enhancing user engagement and load times.",
       "start": "Apr 2019",
       "end": "Feb 2021"
     },
     {
       "role": "FullStack Engineer",
       "company": "RentZend LLC",
-      "description": "As a FullStack Engineer, I contributed to the development of new features for a mobile app using React Native while also enhancing the NodeJS backend. My collaborative efforts with cross-functional teams ensured the delivery of high-quality, user-centered features.\n\nI implemented essential features for property viewing, buying, and renting, which greatly enhanced user interaction and satisfaction. My work involved integrating Apollo GraphQL, which streamlined data queries and improved the performance of the existing application.\n\nAdditionally, I upgraded overall application performance through better coding practices and modern technologies, leading to a more efficient and maintainable codebase. My role required a strong understanding of both frontend and backend technologies, allowing me to bridge gaps between teams effectively.",
-      "start": "05/2018",
-      "end": "03/2019"
+      "description": "Enhanced a mobile app with new React Native features and improved the NodeJS backend. Key contributions included property management functionalities, Apollo GraphQL integration, and overall performance upgrades, ensuring seamless user interaction.",
+      "start": "May 2018",
+      "end": "Mar 2019"
     },
     {
       "role": "FullStack Engineer",
       "company": "Mokko Labs LLC",
-      "description": "In this role, I was responsible for developing both frontend and backend components for various projects, using Angular and NodeJS. My ability to manage multiple tasks and projects simultaneously ensured timely delivery and high-quality results.\n\nI designed and developed the admin portal for SafeStart, incorporating various features, webhooks, and integrations to enhance functionality. Additionally, I constructed foundational APIs for MedSpotting using NodeJS and Express, facilitating seamless communication between the frontend and backend.\n\nI also converted critical hospital management features to a mobile application in React Native, improving accessibility and user experience. My work on developing React Native applications for Tiffinity included adding features such as payment processing and tracking, which significantly enhanced user engagement.",
-      "start": "March 2017",
+      "description": "Developed Angular and NodeJS components for various projects, including the SafeStart admin portal and APIs for MedSpotting. Converted hospital management features to React Native and improved Tiffinity's user engagement with payment and tracking features.",
+      "start": "Mar 2017",
       "end": "Apr 2018"
     },
     {
       "role": "Software Design Engineer",
       "company": "Newgen Softwares Inc",
-      "description": "In my role as a Software Design Engineer, I focused on redesigning the user interface for the IBPS model using HTML and CSS. My work aimed to improve usability and enhance the overall user experience.\n\nI revamped the user interface to create a more intuitive and user-friendly experience, ensuring accessibility for all users. This involved not only aesthetic improvements but also functionality enhancements, making it easier for users to navigate and interact with the system.",
+      "description": "Redesigned the IBPS model UI using HTML and CSS to improve usability and accessibility, creating a more intuitive user experience.",
       "start": "Apr 2016",
       "end": "Feb 2017"
     }
