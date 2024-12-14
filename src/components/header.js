@@ -15,7 +15,6 @@ const Header = ({ name, role }) => {
         </h2>
       </div>
       <div>
-        <DownloadButton />
       </div>
     </header>
   );
